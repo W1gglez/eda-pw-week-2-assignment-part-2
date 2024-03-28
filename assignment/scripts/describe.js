@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// Declare a variable 'name' and give it the string value 'Dane
+// Check if the name is set to 'Mary'. Name is set to 'Dane' so we log the message 'How do you do?' to the console.
 // 
 //
 
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare variables secret and code. Set code to 123.
+// Check if code is 123. Code is 123 so we set secret to 'super' and multiply code by 2.
+// Check if code is greater than 250. Code = 246 which is less than 250 so we exit the conditional
+//Log the value of secret to the console
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declare variables isStudent set to true, age set to 34, and zip set to 55407
+// Check if isStudent is true and zip is greater than 8000. Condition is not met; jump to next condition.
+// Check if isStudent is false or age is less than 34. Condition is not met; jump to next condition.
+//Check if isStudent is true. Condition is met. Log string 'Welcome to Prime!' to console.
 
 //CODE
 /*
@@ -130,12 +130,20 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX - colorOne should be set to 'blue' and colorTwo should be set to 'red'
+//let colorOne = 'red';
+//let colorTwo = 'blue';
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+
+//FIx - Description states both colorOne and colorTwo should be set to purple
+//colorTwo = 'purple';
+
 }
 */
 
@@ -146,8 +154,12 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+//FIX-Description states time should be declared as a variable
+//let time = 4;
 
 if (temp > 39 || time >= 4) {
+//FIX - Description states the conditional should be using an and operator
+//if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -159,11 +171,20 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+//FIX - Description states minAge to be declared as a variable
+//let minAge = 21;
 
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
+}
+
+//Fix - Description states to log 'enter' if age >= minAge
+//if(minAge <= age) {
+  console.log('enter');
+} else {
+  console.log('no entry');
 }
 */
 
